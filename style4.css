@@ -7,8 +7,6 @@ body {
     font-size: 13px;
 
     color: #d9d9da;
-
-    background-color: #1d2424;
 }
 
 * {
@@ -97,16 +95,37 @@ header {
     background-color: #3d6a66;
 }
 
-.afisha_block {
-    text-align: center;
+.block {
+    background-color: #d9d9da;
+    
+    display: flex;
+    flex-wrap: wrap;
+
+    padding-top: 2%;
+    padding-bottom: 2%;
+    padding-left: 2%;
+    padding-right: 2%;
 }
 
-.afisha {
-    width: 30%;
-    margin-left: 2%;
-    margin-top: 2%;
-    margin-bottom: 2%;
+.features {
+    padding-top: 5%;
+    padding-bottom: 5%;
 
+    text-align: center;
+
+}
+
+
+.text {
+    color: #1d2424;
+    margin-left: 5%;
+
+    width: 25%;
+    font-size: 14px;
+}
+
+.text p {
+    margin-bottom: 10%;
 }
 
 /*Конец страницы*/
